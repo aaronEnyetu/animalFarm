@@ -14,3 +14,4 @@ console.log(farmAnimals);
 animalName.textContent = farmAnimals.name;
 animalImage.src = `../assets/${farmAnimals.type}.svg`;
 animalQuote.textContent = farmAnimals.says;
+
