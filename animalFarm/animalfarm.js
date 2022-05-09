@@ -1,8 +1,8 @@
 import { findById } from '../utils.js';
 import { animals } from '../data.js';
 
-const animalImage = document.getElementById('animal-name');
-const animalName = document.getElementById('animal-image');
+const animalImage = document.getElementById('animal-image');
+const animalName = document.getElementById('animal-name');
 const animalQuote = document.getElementById('animal-quote');
 
 const params = new URLSearchParams(window.location.search);
